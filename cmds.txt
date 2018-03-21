@@ -40,9 +40,12 @@ git cherry origin/master HEAD
 
 
 
+<<<<<<< HEAD
 git stash
 git checkout branchname
 git merge branchname
 git merge --squash branchname
 git rebase branchname
 git rebase -i branchname
+=======
+>>>>>>> c090cae... Update cmds.txt
