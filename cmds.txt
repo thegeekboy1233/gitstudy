@@ -18,7 +18,25 @@ git reflog
 
 git tag -a v1.1.1 commitID -m "tag message"
 git tag -d v1.1.1
+git push origin -d tag v1.1.1
 
 git push origin v1.1.1
 git push origin --tags
+
+git reset --hard HEAD^
+git reset --hard HEAD~3
+git reset --hard commitID
+
+git revert HEAD^
+
+git commit --amend
+git commit --amend -m "message"
+
+git cherry-pick commitID
+
+git diff origin/master HEAD
+git log origin/master HEAD
+git cherry origin/master HEAD
+
+
 
