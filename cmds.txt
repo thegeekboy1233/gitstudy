@@ -1,3 +1,24 @@
-git remote add origin URL
+git remote add nameoforigin URL
 
 git config --list
+
+git status
+
+git ls-files
+
+git add .
+git commit -m "commit message"
+git push origin master
+
+git log
+git log -n 3
+git log --stat
+git log --before="" --after="" --author=""
+git reflog
+
+git tag -a v1.1.1 commitID -m "tag message"
+git tag -d v1.1.1
+
+git push origin v1.1.1
+git push origin --tags
+
