@@ -19,9 +19,10 @@ git reflog
 git tag -a v1.1.1 commitID -m "tag message"
 git tag -d v1.1.1
 git tag -f v1.1.1 newcommitID
-git push origin -f tag v1.1.1
-git tag new old
-git push origin -d tag v1.1.1
+git push origin tag -f v1.1.1
+
+git tag newtagid oldtagid
+git push origin tag -d v1.1.1
 
 git push origin v1.1.1
 git push origin --tags
