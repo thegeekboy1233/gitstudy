@@ -1,5 +1,7 @@
 git remote add nameoforigin URL
 
+git checkout -b branchname remotename/branchname (incase of multiple origins)
+
 git config --list
 
 git status
@@ -27,6 +29,7 @@ git push origin tag -d v1.1.1
 git push origin v1.1.1
 git push origin --tags
 
+git reset
 git reset --hard HEAD^
 git reset --hard HEAD~3
 git reset --hard commitID
@@ -41,7 +44,6 @@ git cherry-pick commitID
 git diff origin/master HEAD
 git log origin/master HEAD
 git cherry origin/master HEAD
-
 
 
 git stash
