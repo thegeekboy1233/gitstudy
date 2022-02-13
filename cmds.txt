@@ -46,7 +46,14 @@ git log origin/master HEAD
 git cherry origin/master HEAD
 
 
-git stash
+git stash == git stash push
+git stash pop
+git stash list
+git stash apply
+
+git switch -c brachname
+git switch -
+
 git checkout branchname
 git merge branchname
 git merge --squash branchname
