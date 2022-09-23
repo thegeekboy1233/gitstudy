@@ -1,3 +1,13 @@
+git branch -m <newname>
+
+git branch -m <oldname> <newname>
+
+git push origin :oldname newname
+
+git push origin -u <newname>
+
+
+
 git remote add nameoforigin URL
 
 git checkout -b branchname remotename/branchname (incase of multiple origins)
