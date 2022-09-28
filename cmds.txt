@@ -6,6 +6,7 @@ git push origin :oldname newname
 
 git push origin -u <newname>
 
+git submodule update --init --recursive
 
 
 git remote add nameoforigin URL
