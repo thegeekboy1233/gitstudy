@@ -1,7 +1,10 @@
-undo local changes: git checkout -- filename
+undo local changes: git checkout filename or git reset --hard filename
 git reset --all
 all changes permanently : git reset --hard
-staged local changes undo : git restore --staged filename
+staged local changes undo : git restore --staged filename or git reset HEAD filename
+
+git remove file and its history:
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch filename' HEAD
 
 
 git branch -m <newname>
