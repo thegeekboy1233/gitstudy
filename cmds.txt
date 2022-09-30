@@ -1,3 +1,9 @@
+undo local changes: git checkout -- filename
+git reset --all
+all changes permanently : git reset --hard
+staged local changes undo : git restore --staged filename
+
+
 git branch -m <newname>
 
 git branch -m <oldname> <newname>
