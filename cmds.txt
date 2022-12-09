@@ -6,7 +6,7 @@ staged local changes undo : git restore --staged filename or git reset HEAD file
 git remove file and its history:
 git filter-branch --index-filter 'git rm --cached --ignore-unmatch filename' HEAD
 
-
+chikku papa cute
 git branch -m <newname>
 
 git branch -m <oldname> <newname>
