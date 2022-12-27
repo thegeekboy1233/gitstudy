@@ -2,4 +2,8 @@
 
 df -h
 
+du -sh
+
+
 echo $?
+
